@@ -19,9 +19,11 @@
     "url": "https://glitch.com/edit/#!/hello-express"
   },
   "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+	"keywords": [
+		"node",
+		"express",
+		"mongodb",
+		"databa",
+    "glitch"
+    ]
 }

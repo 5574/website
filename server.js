@@ -1,7 +1,8 @@
 const express = require("express");
 const app = express();
-
+const crypto = require("crypto");
 app.use(express.static("public"));
+
 
 app.get("/", function(request, response) {
   response.sendFile(__dirname + "/views/index.html");
@@ -20,6 +21,9 @@ app.get("/article/pippin", function(request, response) {
   response.sendFile(__dirname + "/views/pippin-page.html");
 });
 
+app.get("/data", function(request, response) {
+  response.sendFile(__dirname + "/DataStore.json");
+});
 
 const listener = app.listen(process.env.PORT, function() {
   console.log("Your app is listening on port " + listener.address().port);

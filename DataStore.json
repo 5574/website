@@ -1,0 +1,29 @@
+{
+  "gigs": {
+    "85136C79": {
+      "date": "nov 15 2019",
+      "time": "7:00pm",
+      "place": "memorial auditorium",
+      "desc": "1st pippin show"
+    },
+    "D2A3658C": {
+      "date": "nov 16 2019",
+      "time": "2:00pm & 7:00pm",
+      "place": "memorial auditorium",
+      "desc": "2nd pippin show"
+    },
+    "C5DC03D6": {
+      "date": "nov 17 2019",
+      "time": "2:00pm",
+      "place": "memorial auditorium",
+      "desc": "3rd pippin show"
+    },
+    "5F46AFE2": {
+      "date": "bla",
+      "time": "bla",
+      "place": "bla",
+      "desc": "bla"
+    }
+  }
+  
+}

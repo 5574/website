@@ -1,30 +1,29 @@
 const express = require("express");
 const app = express();
-const crypto = require("crypto");
 app.use(express.static("public"));
 
 
-app.get("/", function(request, response) {
+app.get("/", function (request, response) {
   response.sendFile(__dirname + "/views/index.html");
 });
 
-app.get("/portfolio", function(request, response) {
+app.get("/portfolio", function (request, response) {
   response.sendFile(__dirname + "/views/portfolio.html");
 });
 
-app.get("/references", function(request, response) {
+app.get("/references", function (request, response) {
   response.sendFile(__dirname + "/views/references.html");
 });
 
 //send the pippin page upon read more request or HTTP GET
-app.get("/article/pippin", function(request, response) {
+app.get("/article/pippin", function (request, response) {
   response.sendFile(__dirname + "/views/pippin-page.html");
 });
 
-app.get("/data", function(request, response) {
-  response.sendFile(__dirname + "/DataStore.json");
+app.get("/data", function (request, response) {
+  response.sendFile(__dirname + "/public/DataStore.json");
 });
 
-const listener = app.listen(process.env.PORT, function() {
+const listener = app.listen(process.env.PORT, function () {
   console.log("Your app is listening on port " + listener.address().port);
 });

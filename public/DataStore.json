@@ -24,6 +24,10 @@
       "place": "bla",
       "desc": "bla"
     }
+  },
+  "blog": {
+    "post1": {
+      "yeah": "yeah"
+    }
   }
-  
 }

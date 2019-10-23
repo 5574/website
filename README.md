@@ -14,3 +14,8 @@ this website basically exists for me to put my stuff up. i host it on glitch bec
 - set up mongodb OR json store and put data inside it
   * articles/writing
   * gigs  
+- set up json to table thing via pug specifically for the table on index
+
+### blogging/jekyll/gigs
+
+- set up a blogging system, probably via jekyll

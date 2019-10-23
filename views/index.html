@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <ul class="navbar-nav">
@@ -46,63 +45,54 @@
             contact me
           </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="https://www.instagram.com/eemilsic/"><i
-                class="fab fa-instagram"></i>&nbsp;&nbsp;@eemilsic</a>
+            <h6 class="dropdown-header">anything with an @ before<br> it is a social media platform</h6>
             <div class="dropdown-divider"></div>
-            <span class="dropdown-item-text"><i class="fab fa-discord"></i>&nbsp;&nbsp;5574#5289</span>
+            <span class="dropdown-item-text">@oatmilsic</span>
             <div class="dropdown-divider"></div>
-            <span class="dropdown-item-text"><i class="fas fa-envelope"></i>&nbsp;&nbsp;5574@protonmail.com</span>
+            <span class="dropdown-item-text">5574@protonmail.com</span>
             <div class="dropdown-divider"></div>
-            <span class="dropdown-item-text"><i class="fas fa-mobile"></i>&nbsp;&nbsp;620 719 7412</span>
+            <span class="dropdown-item-text">620 719 7412</span>
           </div>
-    </li>
-    </ul>
+        </li>
+      </ul>
     </div>
   </nav>
 
   <main role="main" class="container">
 
-    <div class="alert alert-warning mt-4" role="alert">
-      this website isn't finished yet. not all information is here. you can still use the links though.
-    </div>
+    <p class="lead mt-4">
+      hey this is my website. this is kind of like a database of my
+      shenanigans. i wrote this thing using bootstrap 4 and it's hosted on
+      glitch (thank you). feel free to contact me whenever you want if you
+      want something: i'm always open to communicating
+    </p>
 
-    <p class="lead">hey this is my website. this is kind of like a database of my shenanigans. i wrote this thing using
-      bootstrap 4 and it's hosted on glitch (thank you). feel free to contact me whenever you want if you want
-      something: i'm always open to communicating</p>
-
-    <h2 class="display-4">gigs</h2>
-
-    <table class="table table-sm mt-4">
-      <thead>
+    <table class="table mt-4">
+      <thead class="thead">
         <tr>
-          <th scope="col">date</th>
-          <th scope="col">time</th>
-          <th scope="col">place</th>
-          <th scope="col">name</th>
+          <th scope="col">gigs and shows</th>
+          <th></th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>nov 15 2019</td>
-          <td>7:00pm</td>
-          <td>memorial auditorium</td>
-          <td><em>pippin</em> the musical</td>
+          <td>nov 15 2019 & 7:00pm @ memorial auditorium</td>
+          <td>the first showing of <em>pippin</em>.</td>
+          <td><a href="#">watch</a></td>
         </tr>
         <tr>
-          <td>nov 16 2019</td>
-          <td>2:00pm & 7:00pm</td>
-          <td>memorial auditorium</td>
-          <td><em>pippin</em> the musical</td>
+          <td>nov 16 2019 & 2:00pm + 7:00pm @ memorial auditorium</td>
+          <td>the second showing of <em>pippin</em>.</td>
+          <td><a href="#">watch</a></td>
         </tr>
         <tr>
-          <td>nov 17 2019</td>
-          <td>2:00pm</td>
-          <td>memorial auditorium</td>
-          <td><em>pippin</em> the musical</td>
+          <td>nov 17 2019 & 2:00pm @ memorial auditorium</td>
+          <td>the third showing of <em>pippin</em>.</td>
+          <td><a href="#">watch</a></td>
         </tr>
       </tbody>
     </table>
-
   </main>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -114,6 +104,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script src="https://kit.fontawesome.com/6a808cc492.js"></script>
+  <script src="/public/pug-render.js"></script>
 </body>
 
 </html>

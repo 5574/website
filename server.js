@@ -15,15 +15,6 @@ app.get("/references", function (request, response) {
   response.sendFile(__dirname + "/views/references.html");
 });
 
-//send the pippin page upon read more request or HTTP GET
-app.get("/article/pippin", function (request, response) {
-  response.sendFile(__dirname + "/views/pippin-page.html");
-});
-
-app.get("/data", function (request, response) {
-  response.sendFile(__dirname + "/public/DataStore.json");
-});
-
-const listener = app.listen(process.env.PORT, function () {
-  console.log("Your app is listening on port " + listener.address().port);
+app.get("/data/json", function (request, response) {
+  response.sendFile(__dirname + "/public/data.json");
 });
